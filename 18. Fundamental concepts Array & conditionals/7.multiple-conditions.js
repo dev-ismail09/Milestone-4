@@ -1,21 +1,21 @@
 // && and
 
-// var isgraduated = true;
-// var salary = 75000;
-// var cars = 1;
-// if(isgraduated == true && salary > 50000){
-//     console.log('Eso biye kore feli');
-// }
-// else{
-//     console.log('Tor kopale biye nai');
-// }
+var isgraduated = true;
+var salary = 75000;
+var cars = 0;
+if(isgraduated == true && salary > 50000){
+    console.log('Eso biye kore feli');
+}
+else{
+    console.log('Tor kopale biye nai');
+}
 
-// if(isgraduated == true && salary > 50000 && cars >= 1){
-//     console.log('Eso biye kore feli');
-// }
-// else{
-//     console.log('Tor kopale biye nai');
-// }
+if(isgraduated == true && salary > 50000 && cars >= 1){
+    console.log('Eso biye kore feli');
+}
+else{
+    console.log('Tor kopale biye nai');
+}
 
 
 // || or

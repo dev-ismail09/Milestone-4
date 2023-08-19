@@ -5,3 +5,4 @@ var vowels = ['a', 'e', 'i', 'o', 'u'];
 
 console.log(vowels);
 console.log(nayaikas.length);
+console.log(friendsAge.length);

@@ -6,8 +6,8 @@
 
 var numbers = [45, 24, 75, 95, 42, 14, 230, 65, 72];
 for(var i = 0; i < numbers.length; i++){
-    var number = numbers[i];
-    console.log(number); // number[0] = 45
+    var element = numbers[i];
+    console.log(element); // number[0] = 45
 }
 
 var items = ['bottle', 'mouse', 'phone', 'pen', 'gameplay'];

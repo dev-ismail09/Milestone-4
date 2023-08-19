@@ -8,7 +8,7 @@ var shoppingCart = {
 
 var key = Object.keys(shoppingCart);
 var value = Object.values(shoppingCart);
-console.log(key, value);
+// console.log(key, value);
 
 for(var i = 0; i < key.length; i++){
     var propertyName = key[i];

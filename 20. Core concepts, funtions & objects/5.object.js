@@ -1,5 +1,5 @@
 var student = {
-    id: 150,
+    id: 150, // id - property , 150- value
     name : 'Ismail Hosen',
     class : 12,
     marks : 87

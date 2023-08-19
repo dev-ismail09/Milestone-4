@@ -24,7 +24,7 @@ function getOddNumbersOfAnArray(numbers){
         const index = i;
         const element = numbers[index];
         if(element % 2 !== 0){
-            console.log(index, element);
+            // console.log(index, element);
             oddNumbers.push(element);
 
         } 

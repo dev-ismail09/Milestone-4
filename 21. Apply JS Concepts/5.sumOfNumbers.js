@@ -30,7 +30,7 @@ console.log(return_store);
 function factorial(number){
     let result = 1; // আসল খেলা এখানে যোদ এর বেলাই ০ দিয়ে শুরু করলে ও পরে তা যোগ হয়ে মান বাড়ে, কিন্ত গুন এর বেলাই ০ দিয়ে শুধু  হোলে সব সময়ে ০ ই আসবে তাই ১ দিয়ে শুরু করতে হবে
     for(let i = 1; i <= number; i++){
-        result = result * 7
+        result = result * 7;
     }
     return result;
 }
