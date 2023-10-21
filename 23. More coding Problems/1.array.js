@@ -12,6 +12,6 @@ console.log(friends.includes(15));
 
 // concat
 
-const newFriends = [10, 13, 15, 30];
+const newFriends = [10, 13, 15, 30, 40];
 const allFriends = newFriends.concat(friends);
 console.log(allFriends);

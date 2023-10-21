@@ -16,7 +16,7 @@ function sum(i){
         return 1;
     }
     // console.log(i);
-    return i + sum(i-1);
+    return i + sum(i-1); //একটা function এর ভেতর থেকে সেম function টাকে Call করতে পারবো - Recuasion বলে
 }
 
 const result = sum(5);

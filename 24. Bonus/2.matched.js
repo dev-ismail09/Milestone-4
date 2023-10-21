@@ -4,7 +4,7 @@ const numbers = [45, 65, 23, 98, 19];
 // }
 
 // shortcut
-
+// for of loop
 for(const number of numbers){
     // console.log(number);
 }

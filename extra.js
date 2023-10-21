@@ -1,31 +1,29 @@
-function sumAllNum(number){
-    let sum = 0;
-    for(var i = 0; i < number.length; i++){
-        const index = i;
-        const element = number[index];
-        sum = sum + element;
-    }
-    return sum;
-}
+// const numbers = [45, 65, 23, 98, 19];
 
-function allOddSum(numbers){
-    let newNumber =  [];
-    for(var i = 0; i < numbers.length; i++){
-        const index = i;
-        const element = numbers[index];
-        // console.log(index, element);
-        if(element  % 2 === 1 ){
-            // console.log("odd number");
-            newNumber.push(element);
+// for(const number of numbers){
+//      console.log(number);
+// }
+
+
+const products = [
+    {id: 1, name: 'Xiami phone', price: 19000},
+    {id: 2, name: 'iphone phone', price: 89000},
+    {id: 3, name: 'macbook laptop', price: 195000},
+    {id: 4, name: 'Dell laptop', price: 47000},
+    {id: 5, name: 'nokia', price: 35000},
+    {id: 6, name: 'walton phone', price: 29000},
+];
+
+
+function matchedProducts(products, search){
+    const matched = [];
+    for(const product of products){
+        if(product.name.toLowerCase().includes(search.toLowerCase())){
+            matched.push(product);
         }
     }
-    return newNumber;
+    return matched;
 }
 
-
-const oddNSum = [51, 14, 24, 27, 25, 30];
-const OddSum = allOddSum(oddNSum);
-console.log(OddSum);
-
-const finalResult = sumAllNum(OddSum);
-console.log(finalResult);
+const result = matchedProducts(products, 'LaPTop');
+console.log(result);
